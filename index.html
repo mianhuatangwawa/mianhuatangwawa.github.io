@@ -1,189 +1,195 @@
 <!DOCTYPE html>
-<html>
-<!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>棉花糖等身布偶产品展示</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-image: url("background.jpg");
-            background-size: contain;
-            background-repeat: repeat;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: flex;
-            color: #ffffff;
-            font-size: 10px;
-        }
-        .sidebar {
-            flex: 0 0 100px;
-            background-color: #00008b;
-            padding: 15px;
-            top: 0;
-            left: 0;
-            height: 100%;
-            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-            overflow-y: auto;
-            font-size: 20px;
-        }
-        .content {
-            flex: 1;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            color: #ffffff;
-        }
-        .slogan {
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            color: #ffffff;
-            border: 2px solid red;
-        }
-        .product {
-            margin-bottom: 30px;
-            background-color: rgba(0, 0, 0, 0.8);
-            color: #ffffff;
-        }
-        .product-image {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 300px;
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-        .product-info {
-            text-align: center;
-            padding: 20px;
-        }
-        .product-title {
-            font-size: 60px;
-            font-weight: bold;
-            color: #ffffff;
-            margin-bottom: 10px;
-        }
-        .product-description {
-            font-size: 16px;
-            color: #ffffff;
-            margin-bottom: 10px;
-        }
-        img {
-            max-width: 100%;
-            max-height: 100%;
-        }
-        .sidebar ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-        .sidebar ul li {
-            margin-bottom: 10px;
-        }
-        .sidebar ul li a {
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: bold;
-        }
-        .sidebar ul li a:hover {
-            color: red;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Alime - Photography HTML Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+
 </head>
+
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <ul>
-                <li><a href="index.html" style="color:#FFFF00">1.产品展示</a></li>
-                <li><a href="chongmian.html" style="color:#FFFF00">2.充棉教程</a></li>
-                <li><a href="kaidong.html" style="color:#FFFF00">3.开洞展示</a></li>
-                <li><a href="qingxi.html" style="color:#FFFF00">4.关于清洗</a></li>
-                <!-- Add more pages as needed -->
-            </ul>
+    <!-- Preloader -->
+    <!-- <div id="preloader">
+        <div class="loader"></div>
+    </div> -->
+    <!-- /Preloader -->
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+
+                        <!-- Logo -->
+                        <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li class="active"><a href="./index.html">主页</a></li>
+                                    <!-- <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./index.html">- Home</a></li>
+                                            <li><a href="./about.html">- About</a></li>
+                                            <li><a href="./gallery.html">- Gallery</a></li>
+                                            <li><a href="#bottom">- Blog</a></li>
+                                            <li><a href="./single-blog.html">- Blog Details</a></li>
+                                            <li><a href="./contact.html">- Contact</a></li>
+                                            <li><a href="#">- Dropdown</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./about.html">About</a></li> -->
+                                    <li><a href="#show">展示</a></li>
+                                    <li><a href="./gallery.html">图库</a></li>
+                                    <li><a href="#bottom">联系我们</a></li>
+                                </ul>
+
+                                <!-- Search Icon -->
+                                <!-- <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div> -->
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
-        <div class="content">
-            
-            <div class="slogan">
-                <h2 style="color:#ffffff;">棉花糖等身布偶：产品展示</h2>
-                <h2 style="color:#ffffff;">各平台官方销售渠道：棉花糖等身布偶/棉花糖等身人形抱枕</h2>
-            </div>
+    </header>
+    <!-- Header Area End -->
 
-            
+    <!-- Welcome Area Start -->
+    <section class="welcome-area">
+        <div class="welcome-slides owl-carousel">
+        </div>
+    </section>
+    <!-- Welcome Area End -->
 
-            <h2 class="product-title">视频展示：</h2>
-            <div class="slogan">
-                <h2 style="color:#ffffff;">以下仅展示身形，脸部由购买商品图片为准</h2>
-            </div>
-            <div class="product">
-                <div class="product-info">
-                    <h2 class="product-title">布偶展示：</h2>
-                    <video width="600" controls poster="index_v1.jpg">
-                        <source src="index_v1.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-title">布偶正面：</h2>
-                    <video width="600" controls poster="index_v2.jpg">
-                        <source src="index_v2.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-title">布偶反面：</h2>
-                    <video width="600" controls poster="index_v3.jpg">
-                        <source src="index_v3.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-title">布偶使用展示：</h2>
-                    <video width="600" controls poster="index_v4.jpg">
-                        <source src="index_v4.mp4" type="video/mp4">
-                    </video>
+    <!-- Gallery Area Start -->
+    <div class="alime-portfolio-area section-padding-80 clearfix" id="show">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Projects Menu -->
+                    <div class="alime-projects-menu">
+                        <div class="portfolio-menu text-center">
+                            <button class="btn active" data-filter="*">所有</button>
+                            <button class="btn" data-filter=".human">图片展示</button>
+                            <button class="btn" data-filter=".video">视频展示</button>
+                            <button class="btn" data-filter=".head">可选头像</button>
+                            <button class="btn" data-filter=".tutoral">使用教程</button>
+                            <!-- <button class="btn" data-filter=".hidden">隐藏商品</button> -->
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <h2 class="product-title">图片展示：</h2>
-            <div class="slogan">
-                <h2 style="color:#ffffff;">以下仅展示身形，脸部由购买商品图片为准</h2>
+            <div class="row alime-portfolio portfolio-block">
             </div>
-            <div class="product">
-                <a href="index_p1.jpg" target="_blank"><img class="thumbnail" src="index_p1.jpg" alt="Image 1"></a>
-                <a href="index_p2.jpg" target="_blank"><img class="thumbnail" src="index_p2.jpg" alt="Image 2"></a>
-                <a href="index_p3.jpg" target="_blank"><img class="thumbnail" src="index_p3.jpg" alt="Image 3"></a>
-                 <a href="index_p4.jpg" target="_blank"><img class="thumbnail" src="index_p4.jpg" alt="Image 1"></a>
-                <a href="index_p5.jpg" target="_blank"><img class="thumbnail" src="index_p5.jpg" alt="Image 2"></a>
-                <a href="index_p6.jpg" target="_blank"><img class="thumbnail" src="index_p6.jpg" alt="Image 3"></a>
-                 <a href="index_p7.jpg" target="_blank"><img class="thumbnail" src="index_p7.jpg" alt="Image 1"></a>
-                <a href="index_p8.jpg" target="_blank"><img class="thumbnail" src="index_p8.jpg" alt="Image 2"></a>
-                <a href="index_p9.jpg" target="_blank"><img class="thumbnail" src="index_p9.jpg" alt="Image 1"></a>
-                <a href="index_p10.jpg" target="_blank"><img class="thumbnail" src="index_p10.jpg" alt="Image 2"></a>
-                <a href="index_p11.jpg" target="_blank"><img class="thumbnail" src="index_p11.jpg" alt="Image 3"></a>
-                 <a href="index_p12.jpg" target="_blank"><img class="thumbnail" src="index_p12.jpg" alt="Image 1"></a>
-                <a href="index_p13.jpg" target="_blank"><img class="thumbnail" src="index_p13.jpg" alt="Image 2"></a>
-                <a href="index_p14.jpg" target="_blank"><img class="thumbnail" src="index_p14.jpg" alt="Image 3"></a>
-                 <a href="index_p15.jpg" target="_blank"><img class="thumbnail" src="index_p15.jpg" alt="Image 1"></a>
-                <a href="index_p16.jpg" target="_blank"><img class="thumbnail" src="index_p16.jpg" alt="Image 2"></a>
-                <a href="index_p17.jpg" target="_blank"><img class="thumbnail" src="index_p17.jpg" alt="Image 1"></a>
-                <a href="index_p18.jpg" target="_blank"><img class="thumbnail" src="index_p18.jpg" alt="Image 2"></a>
-                <a href="index_p19.jpg" target="_blank"><img class="thumbnail" src="index_p19.jpg" alt="Image 3"></a>
-                 <a href="index_p20.jpg" target="_blank"><img class="thumbnail" src="index_p20.jpg" alt="Image 1"></a>
-                <a href="index_p21.jpg" target="_blank"><img class="thumbnail" src="index_p21.jpg" alt="Image 2"></a>
-                <a href="index_p22.jpg" target="_blank"><img class="thumbnail" src="index_p22.jpg" alt="Image 3"></a>
-                 <a href="index_p23.jpg" target="_blank"><img class="thumbnail" src="index_p23.jpg" alt="Image 1"></a>
-            </div>
-            
-            
-            <div class="slogan">
-                <h2 style="color:#ffffff;">1. 展示、售卖产品角色均大于20岁</h2>
-                <h2 style="color:#ffffff;">2. 如有重名、雷同纯属巧合</h2>
-                <h2 style="color:#ffffff;">3. 各平台官方销售渠道：棉花糖等身布偶/棉花糖等身人形抱枕</h2>
+
+            <div class="row">
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="700ms">
+                    <a href="./gallery.html" class="btn alime-btn btn-2 mt-15">View More</a>
+                </div>
             </div>
         </div>
     </div>
+    <!-- Gallery Area End -->
+
+    <!-- Follow Area Start -->
+    <section class="follow-area clearfix">
+        <div id="bottom" class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Follow Instagram</h2>
+                        <p>@Alime_photographer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Instagram Feed Area -->
+        <div class="instragram-feed-area owl-carousel">
+            <!-- Single Instagram Item -->
+        </div>
+    </section>
+    <!-- Follow Area End -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content d-flex align-items-center justify-content-between">
+                        <!-- Copywrite Text -->
+                        <div class="copywrite-text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </div>
+                        <!-- Footer Logo -->
+                        <div class="footer-logo">
+                            <a href="http://www.baidu.com"><img src="img/core-img/logo2.png" alt=""></a>
+                        </div>
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="#"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-twitter-alt" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="./js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- append -->
+    <script type="module" src="./src/index.js"></script>
+    <!-- All Plugins -->
+    <script src="./js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script type="module" src="./js/default-assets/active.js"></script>
+
 </body>
+
 </html>
