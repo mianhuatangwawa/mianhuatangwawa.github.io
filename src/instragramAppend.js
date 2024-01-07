@@ -1,6 +1,6 @@
 // 图库加图
 export default (length) => {
-  const modules = import.meta.glob('../img/bg-img/*')
+  const modules = import.meta.glob('../img/instragram/*')
   const $ = jQuery
   const fatherNode = $('.instragram-feed-area');
   Object.keys(modules).slice(0, length).forEach(async (key) => {
