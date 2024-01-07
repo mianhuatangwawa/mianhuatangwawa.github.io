@@ -1650,3 +1650,8 @@ input:required {
 .video-width {
   width: 100%;
 }
+
+.portfolio-block {
+  max-height: 800px;
+  overflow: hidden;
+}
