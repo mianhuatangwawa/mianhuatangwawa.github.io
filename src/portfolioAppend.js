@@ -8,8 +8,8 @@ export default (length, videoLength) => {
     const src = await modules[key]();
     const type = key.split('_')[1]?.replace(/\..*/, '') || 'nature';
     let c;
-    if (type === 'video') {
-      c = $(`<div class="col-6 single_gallery_item video mb-30 wow fadeInUp" data-wow-delay="100ms">
+    if (type === 'video' || type === 'tutoral') {
+      c = $(`<div class="col-6 single_gallery_item ${type} mb-30 wow fadeInUp" data-wow-delay="100ms">
       <div class="single-portfolio-content">
         <video class='video-width' controls>
           <source src="${src.default}" type="video/mp4">

@@ -9,10 +9,6 @@ export default (length) => {
       `<div class="single-instagram-item">
       <img src="${src.default}" alt="">
       <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-          <a href="#">
-              <i class="ti-instagram" aria-hidden="true"></i>
-              <span>Alime_photographer</span>
-          </a>
       </div>
   </div>`
     )
